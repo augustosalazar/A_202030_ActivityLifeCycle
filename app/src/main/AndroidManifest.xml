@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"></activity>
+            android:label="@string/title_activity_main2"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
